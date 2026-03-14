@@ -14,7 +14,7 @@ console.log("- DATABASE_URL:", process.env.DATABASE_URL ? "défini (caché)" : "
 // ⚠️ NE LOGGEZ PAS LE MOT DE PASSE ! ⚠️
 
 console.log("🔧 Configuration DB finale:", {
-    user: process.env.DB_USER || "sgbdproject_user",
+    user: process.env.DB_USER || "root",
     host: process.env.DB_HOST,
     database: process.env.DB_NAME || "sgbdproject",
     port: parseInt(process.env.DB_PORT || "5432"),
