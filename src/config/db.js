@@ -5,7 +5,7 @@ dotenv.config()
 const { Pool } = pkg
 
 const pool = new Pool({
-    user: String(process.env.DB_USER || 'root'),
+    user: String(process.env.DB_USER || 'sgbdproject_user'),
     host: String(process.env.DB_HOST),
     database: String(process.env.DB_NAME || 'sgbdproject'),
     password: String(process.env.DB_PASSWORD),
